@@ -1,0 +1,106 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.container{
+    background-image: url('beachshowcase.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width:1350px;
+}
+
+h1{
+    color:rgb(134, 90, 53);
+    text-align: center;
+    font-size: 50px;
+padding-top: 200px;
+}
+p{
+    color:rgb(134, 90, 53);
+    text-align: center;
+    font-size: 16px;  
+}
+button{
+    color:rgba(78, 49, 25, 0.719);
+    background-color: transparent;
+border: 2px solid rgb(190, 134, 87);
+height: 50px;
+width:130px;
+margin-left: 630px;
+margin-top: 50px;
+border-radius: 10px;
+font-size: 16px; 
+}
+button:hover{
+    background-color: rgb(190, 134, 87);
+}
+.box1{
+    
+    border: 1px solid black;
+
+}
+.firstpara{
+    color:white;
+    background-color:Sienna;
+    font-size: 18px;
+    height: 150px;
+    width:1350px; 
+    text-align: center;
+    padding-top: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.secondpara{
+    color:sienna;
+    background-color:rgb(238, 234, 234);
+    font-size: 18px;
+    height: 150px;
+    width:1350px;  
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.flex-container > div{
+border:1px solid black;
+padding-top:40px;
+
+}
+.one{
+    background-color: rgb(190, 134, 87);
+    height: 110px; 
+    color:white;
+    width:900px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+.two{
+    background-color: white;
+    height: 110px; 
+    color:rgb(190, 134, 87);
+    width:900px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+.three{
+    background-color: rgb(190, 134, 87);
+    height: 110px; 
+    color:white;
+    width:900px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 16px;
+}
